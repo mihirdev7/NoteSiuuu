@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Username"
+        android:layout_margin="10dp"
+        android:editable="false"
+        android:background="@drawable/search_design"
+        android:id="@+id/profile_username" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Email"
+        android:layout_margin="10dp"
+        android:background="@drawable/search_design"
+        android:editable="false"
+        android:id="@+id/profile_email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Phone"
+        android:layout_margin="10dp"
+        android:background="@drawable/search_design"
+        android:editable="false"
+        android:id="@+id/profile_phone"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/ColorPrimary"
+            android:background="@drawable/search_design"
+            android:text="Done"
+            android:id="@+id/profle_update_btn"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/logout_btn"/>
+
+
+
+</LinearLayout>
